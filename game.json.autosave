@@ -1,0 +1,5194 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectFile": "C:\\Users\\Darth\\Documents\\GDevelop projects\\Haunted\\game.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Project",
+    "author": "",
+    "windowWidth": 700,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "Jesús Lastra - Abandoned.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jesús Lastra - Abandoned.mp3",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "block.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "block.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Idle_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Idle_011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_010.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/player/Wraith_02_Moving Forward_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\player\\Wraith_02_Moving Forward_011.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/inside.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\inside.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house126.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house126.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house127.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house127.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house128.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/portal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\portal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house069.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house069.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house070.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house070.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house077.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house077.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house078.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house078.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house079.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house079.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house115.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house116.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house116.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "basement.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "basement.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chest_closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chest_closed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\key.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/smoke1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\smoke1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/smoke2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\smoke2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/smoke3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\smoke3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\ladder.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialogbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogbox.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/home/Layer 1_house039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\home\\Layer 1_house039.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/multiscene/Layer 1_house012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\multiscene\\Layer 1_house012.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/multiscene/Layer 1_house025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\multiscene\\Layer 1_house025.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/multiscene/Layer 1_house026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\multiscene\\Layer 1_house026.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/img/multiscene/Layer 1_house013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\img\\multiscene\\Layer 1_house013.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer 1_house024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer 1_house024.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Games.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Games.ttf",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "name": "Player",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "PlayerIdle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Idle_011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PlayerMoving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\img\\player\\Wraith_02_Moving Forward_011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 32,
+      "name": "Obstacle",
+      "tags": "",
+      "texture": "block.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
+    }
+  ],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "PlayerSpeed",
+      "value": "85"
+    }
+  ],
+  "layouts": [
+    {
+      "b": 46,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Home",
+      "name": "Home",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 46,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 46,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": false,
+        "windowMask": false,
+        "zoomFactor": 0.9464
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 710,
+          "layer": "",
+          "locked": true,
+          "name": "Map",
+          "persistentUuid": "37b07cde-e5c8-448c-9fda-56eb328e3f5b",
+          "width": 1021,
+          "x": -68,
+          "y": -68,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 171,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "ed6e820b-0518-4ac7-b31f-12681a981860",
+          "width": 26,
+          "x": 318,
+          "y": 161,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "b1e34a7c-909e-415c-a83a-ae13af2d49d9",
+          "width": 346,
+          "x": 222,
+          "y": 475,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 43,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "607a093c-2661-45a1-a113-1fcfbb347f06",
+          "width": 16,
+          "x": 585,
+          "y": 287,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 9,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "41247654-905a-4f30-a622-7d0fb0d637ef",
+          "width": 90,
+          "x": 126,
+          "y": 220,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 130,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "05e29b4e-16ea-4eb2-8882-c1d56c7d4f6c",
+          "width": 10,
+          "x": 209,
+          "y": 66,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "afa5c2d3-aec6-427f-b874-d55aeca9e197",
+          "width": 11,
+          "x": 125,
+          "y": 47,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "a1f4b51e-d40f-4496-a46a-f7435805db00",
+          "width": 13,
+          "x": -50,
+          "y": 77,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 152,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "49d7518c-f0f1-49d5-8dd3-e38706af56ba",
+          "width": 15,
+          "x": 446,
+          "y": 50,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 13,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "67a2c43b-a7a5-4fe3-9b9a-35b6e43e073f",
+          "width": 197,
+          "x": 226,
+          "y": 42,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 88,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "6bdc1462-8b95-44e7-a908-4bf4d53c646e",
+          "width": 17,
+          "x": 286,
+          "y": 259,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 107,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "c900ca35-7e14-4043-a827-7fa5ef982716",
+          "width": 15,
+          "x": 733,
+          "y": 248,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "ec973ff7-6861-4d47-8e36-ea6c7ea978d9",
+          "width": 136,
+          "x": 568,
+          "y": 277,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "dc07e959-9828-405c-9000-997128ac351d",
+          "width": 181,
+          "x": 737,
+          "y": 380,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 56,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "e05567ab-f7f3-465a-9fd8-3a06e2e5b055",
+          "width": 32,
+          "x": 827,
+          "y": 398,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "d7092708-8719-412f-9715-cb0de26ddf11",
+          "width": 35,
+          "x": 872,
+          "y": 434,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "38fa45e4-57ca-40b7-bed3-a59ed1e565a0",
+          "width": 18,
+          "x": 707,
+          "y": 415,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "f1827521-69c9-4f21-ba23-938fb164f42d",
+          "width": 18,
+          "x": 611,
+          "y": 576,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "da6791ba-de56-473b-a2ce-fd7770eccefd",
+          "width": 18,
+          "x": 771,
+          "y": 573,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 49,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "46315450-8d17-416d-9469-95885b7bb682",
+          "width": 18,
+          "x": 900,
+          "y": 544,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 66,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "4db2def6-6287-49f3-8c85-7122999a3296",
+          "width": 13,
+          "x": 924,
+          "y": 466,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "20d43c60-7066-4194-ab4f-d4fe60752bde",
+          "width": 13,
+          "x": 14,
+          "y": 191,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 196,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "54c93b3a-1c3c-4db9-8fde-de02e62fdb9b",
+          "width": 13,
+          "x": 110,
+          "y": 380,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 13,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "fec01f50-b764-423d-bda1-d508642ba1af",
+          "width": 75,
+          "x": 38,
+          "y": 352,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 13,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "a6413d41-176b-431b-8222-3c5c73bdef18",
+          "width": 60,
+          "x": -44,
+          "y": 158,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 13,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "cd6e5b6d-d510-43d7-bdaa-202e037a4451",
+          "width": 75,
+          "x": 363,
+          "y": 224,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 55,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "b88ab4a3-182c-4f27-8727-d63b15d8e649",
+          "width": 22,
+          "x": 573,
+          "y": 389,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 42,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "d9916c7e-631d-4d04-876e-dc69ca59fe3c",
+          "width": 20,
+          "x": 35,
+          "y": 291,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 12,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "ddcc17f1-89d2-43ad-9c0b-762287bfb2b6",
+          "width": 134,
+          "x": -31,
+          "y": 49,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 14,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "2c77b733-7208-45f6-b816-711f2193f626",
+          "width": 769,
+          "x": 126,
+          "y": 606,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "1653f878-94f4-4855-8644-d01d9f939a9d",
+          "width": 18,
+          "x": 416,
+          "y": 160,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "a533b327-5b92-4597-9847-d4f244e1aaa7",
+          "width": 18,
+          "x": 770.361,
+          "y": 419.887,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "7346548a-fc00-4fde-afae-95c75b214d5e",
+          "width": 18,
+          "x": 258,
+          "y": 512,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 89,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "9dc724dd-60b6-4c18-87ef-8d29b8ca365b",
+          "width": 9,
+          "x": 221,
+          "y": 362,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 9,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "0c696b07-639b-460b-b701-965a16984773",
+          "width": 47,
+          "x": 223,
+          "y": 352,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "6f58deac-3681-4469-9850-1d1deef1f34a",
+          "width": 12,
+          "x": 559,
+          "y": 335,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "WallWatch",
+          "persistentUuid": "40cb3ddc-a92a-4d59-9f2c-b85a94168ac2",
+          "width": 0,
+          "x": 316,
+          "y": -2,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fire1",
+          "persistentUuid": "b670635d-4b0d-4a92-9fe8-35bed192db56",
+          "width": 0,
+          "x": 764,
+          "y": 413,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fire2",
+          "persistentUuid": "073a9658-dad6-4493-a227-eac1cb9a6ce1",
+          "width": 0,
+          "x": 380,
+          "y": 61,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fire3",
+          "persistentUuid": "843328cb-20fd-45f1-8ee4-1e97f78f4497",
+          "width": 0,
+          "x": 636,
+          "y": 287,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fire3",
+          "persistentUuid": "fab0a85c-5604-4271-a216-b8caf3c8e597",
+          "width": 0,
+          "x": 604,
+          "y": 287,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 15,
+          "layer": "",
+          "locked": false,
+          "name": "portal",
+          "persistentUuid": "e500381e-e5a9-41a5-b778-8ced10753514",
+          "width": 8,
+          "x": -27,
+          "y": 133,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "f98e2609-134d-43f7-8ed0-f09689ab2cce",
+          "width": 34,
+          "x": 682,
+          "y": 281,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 39,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "55872a16-60ec-48d6-aa44-a470b97b27fc",
+          "width": 12,
+          "x": 102,
+          "y": 34,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Light",
+          "persistentUuid": "a22a08c4-b5c6-44d8-a61a-9f19fcbfdf5b",
+          "width": 0,
+          "x": 700,
+          "y": 411,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "ba291979-6aed-4d81-97b5-7dc267c6d189",
+          "width": 0,
+          "x": 11,
+          "y": 111,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "chest",
+          "persistentUuid": "b5798c1e-fd24-4952-b002-0434c2d5e021",
+          "width": 0,
+          "x": 188,
+          "y": 221,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "key",
+          "persistentUuid": "65d39e9e-dfbf-472a-9d1d-b7604f67ddb2",
+          "width": 0,
+          "x": 411,
+          "y": 156,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "81d3b5cd-9753-4847-983f-7529200eca17",
+          "width": 13,
+          "x": 14,
+          "y": 191,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Smoke",
+          "persistentUuid": "a403df13-a198-4557-9b88-71410c375b48",
+          "width": 0,
+          "x": 763,
+          "y": 318,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloorCover",
+          "persistentUuid": "8193ae83-459f-46cb-b85a-65ceeb03f797",
+          "width": 0,
+          "x": -35,
+          "y": 123,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 28,
+          "layer": "",
+          "locked": false,
+          "name": "Papers",
+          "persistentUuid": "0905236b-8a6f-4144-96d5-56aacea5657f",
+          "width": 26,
+          "x": 93,
+          "y": 55,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 121,
+          "layer": "Messages Layer",
+          "locked": false,
+          "name": "DialogBox",
+          "persistentUuid": "aca4bf06-d3d5-43d6-b27e-6eb86d977e9b",
+          "width": 647,
+          "x": 31,
+          "y": 463,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 76,
+          "layer": "Messages Layer",
+          "locked": false,
+          "name": "Message",
+          "persistentUuid": "00ea3ba5-94bc-4859-90ef-16ab25a35238",
+          "width": 611,
+          "x": 53,
+          "y": 494,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Skull",
+          "persistentUuid": "d6da99aa-bb1b-43c2-9298-a404f947fc41",
+          "width": 0,
+          "x": 604,
+          "y": 571,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 32,
+          "name": "Map",
+          "tags": "",
+          "texture": "assets\\img\\home\\inside.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "WallWatch",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house128.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house126.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house127.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house126.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house069.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house070.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house077.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house078.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house079.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house115.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house116.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "portal",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\portal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Light",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house012.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house025.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house026.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "chest",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "chest_closed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "key",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\key.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Smoke",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.8,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\smoke1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\smoke2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\smoke3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FloorCover",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house013.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Papers",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\home\\Layer 1_house039.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DialogBox",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "dialogbox.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Message",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "assets\\Games.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 187,
+            "g": 187,
+            "r": 187
+          }
+        },
+        {
+          "name": "Skull",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Layer 1_house024.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Prefab events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GeneralContextConfig::GeneralContextConfig"
+                  },
+                  "parameters": [
+                    "",
+                    "Obstacle",
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayerControl::PlayerControl"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Scene events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "portal"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": true,
+                  "name": "Collectable objects",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Tools\"",
+                            "\"key\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "key",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Tools\"",
+                            "\"object\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "chest",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Tools\"",
+                            "\"Light\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Light",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "disabled": false,
+                  "folded": true,
+                  "name": "Interaction objects",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Interactions\"",
+                            "\"Fire1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Fire1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Smoke"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Interactions\"",
+                            "\"Fire2\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Fire2"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Interactions\"",
+                            "\"Fire3\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Fire3"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "portal",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Basement\"",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "FloorCover",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Messages Layer\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Tool objects",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "key",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"key\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "key",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Light",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"Light\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Light",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Interact objects",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Papers",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Inventory::Has"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"key\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Messages Layer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "\"Personal diary: He dont want to talk me since I lost the key, and some how, he is the only one that can move the sack\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "chest",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Has"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"key\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"object\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "chest",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Messages Layer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Message",
+                    "=",
+                    "\"This chest is empty...\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Fire1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Has"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Tools\"",
+                    "\"Light\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Interactions\"",
+                    "\"Fire1\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Fire1",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Smoke",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Fire2",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Has"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Interactions\"",
+                    "\"Fire1\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Interactions\"",
+                    "\"Fire2\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Fire2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Fire3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Has"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Interactions\"",
+                    "\"Fire2\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Inventory::Add"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Interactions\"",
+                    "\"Fire3\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Fire3",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Skull",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Inventory::Has"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Tools\"",
+                        "\"key\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Messages Layer\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Message",
+                        "=",
+                        "\"It is too cold here\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Inventory::Has"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Interactions\"",
+                            "\"Fire3\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "Message",
+                            "=",
+                            "\"I moved the sack for you, please bring my ______ back to me from the basement\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "FloorCover",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "Messages Layer",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 74,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Basement",
+      "name": "Basement",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 74,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 74,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.8522
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 698,
+          "layer": "",
+          "locked": true,
+          "name": "Map",
+          "persistentUuid": "9c4e6850-79a6-48c5-9a29-27a9c620926e",
+          "width": 1029,
+          "x": -65,
+          "y": -67,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Player",
+          "persistentUuid": "e8b4d57c-f889-4b44-8d26-28238ca9335c",
+          "width": 0,
+          "x": -10,
+          "y": 115,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "52ca1487-e197-46ff-8760-49dc1e5d19dd",
+          "width": 209,
+          "x": -26,
+          "y": 59,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "8691469c-4852-42ce-891a-53d53ee43f46",
+          "width": 34,
+          "x": 182,
+          "y": 32,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 437,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "12028e2e-4769-44dc-aa0c-ec3834f7894f",
+          "width": 13,
+          "x": 224,
+          "y": 44,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "f0af0b59-35fb-4424-98db-f2d299a5b8b6",
+          "width": 15,
+          "x": 193,
+          "y": 195,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "af26481f-2c30-4bec-8c7b-a97efffa7d19",
+          "width": 15,
+          "x": 47,
+          "y": 195,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "3b43d214-6282-4d77-9824-562346db6662",
+          "width": 15,
+          "x": 46,
+          "y": 355,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "702598cf-a6d9-4dc4-80c9-a1364e6cc197",
+          "width": 15,
+          "x": 47,
+          "y": 515,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "db768a7b-567a-45d8-bd1a-a32253946911",
+          "width": 15,
+          "x": -49,
+          "y": 81,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 201,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "1d22e9ea-2155-480f-9697-ee020f4a0305",
+          "width": 15,
+          "x": 16,
+          "y": 293,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "50318523-c527-4480-bf23-2d31c78be45c",
+          "width": 53,
+          "x": -31,
+          "y": 158,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "e0eb4f3d-df6e-49a9-a236-78dee025849e",
+          "width": 338,
+          "x": 277,
+          "y": 77,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "3d478805-b6c2-47cf-8349-443edeed3687",
+          "width": 266,
+          "x": 638,
+          "y": 219,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "c803c799-82f0-4a8d-9f3b-12f40c696d14",
+          "width": 830,
+          "x": 69,
+          "y": 607,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "b69de9e7-c22a-4981-bbe7-4528cc7710b7",
+          "width": 516,
+          "x": 251,
+          "y": 507,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "3a284fd8-767b-4605-ba32-a42c3ee3f573",
+          "width": 213,
+          "x": 558,
+          "y": 351,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "eb170bca-c993-41b5-8723-aec8a333f382",
+          "width": 164,
+          "x": 304,
+          "y": 349,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 11,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "2e26e97d-7d93-4cba-909d-8ac2a8c36730",
+          "width": 58,
+          "x": 482,
+          "y": 158,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 59,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "80026d4b-3351-4a49-8522-ce2baa15818d",
+          "width": 15,
+          "x": 192,
+          "y": 356,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 139,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "5f97d9df-bc78-45a0-a4bf-bf183e8993be",
+          "width": 10,
+          "x": 480,
+          "y": 191,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 237,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "5d4722db-c72c-4455-8fe6-1588f4b480cf",
+          "width": 13,
+          "x": 274,
+          "y": 112,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 361,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "c1d64e07-8b21-46c1-beed-9d59397d8e7a",
+          "width": 13,
+          "x": 928,
+          "y": 252,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 113,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "2f35ba82-47ef-4b1b-a1f9-e9c59c07a928",
+          "width": 10,
+          "x": 789,
+          "y": 376,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 13,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "1f31cfc9-1a3f-41a4-a909-61477c55861f",
+          "width": 17,
+          "x": 327,
+          "y": 192,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "de3a2991-c737-43fb-95e5-28b9b075adb9",
+          "width": 53,
+          "x": 388,
+          "y": 289,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "09a9ab12-b81b-4ea7-87b0-ba9fc33d3b9a",
+          "width": 10,
+          "x": 396,
+          "y": 266,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 136,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "6c569a40-06b8-4c32-aabe-c28723cb71f2",
+          "width": 10,
+          "x": 639,
+          "y": 82,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LightWall",
+          "persistentUuid": "4b46f385-8776-4cab-99d6-e560ca171f06",
+          "width": 0,
+          "x": 159,
+          "y": -3,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LightWall",
+          "persistentUuid": "bab9a5ee-a10c-461d-894e-be2619b8328e",
+          "width": 0,
+          "x": 479,
+          "y": -3,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LightWall",
+          "persistentUuid": "f5f38a5e-171d-41c9-96c9-c1568d946ec7",
+          "width": 0,
+          "x": 767,
+          "y": 189,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LightWall",
+          "persistentUuid": "8f894058-99ca-4247-9d9c-da3b2cbcdfd7",
+          "width": 0,
+          "x": 607,
+          "y": 446,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "LightWall",
+          "persistentUuid": "7bb88fa5-754e-4e48-9ac1-8cd1721b02ea",
+          "width": 0,
+          "x": 414,
+          "y": 445,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 139,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "2d9b0829-4ee9-4c87-b4b5-f1780deb6b04",
+          "width": 10,
+          "x": 533,
+          "y": 189,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 20,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "8fe589eb-ff0b-4006-a42b-8d765f3c9615",
+          "width": 10,
+          "x": 421,
+          "y": 279,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 8,
+          "layer": "",
+          "locked": false,
+          "name": "Portal",
+          "persistentUuid": "ccfeeffc-9135-4b5a-a4bd-8869fd06e03b",
+          "width": 15,
+          "x": -45,
+          "y": 104,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "45e2b266-8691-403c-9a60-1f78dc00846c",
+          "width": 0,
+          "x": -41,
+          "y": 110,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "7eacfc65-752c-4842-94db-be1184182c78",
+          "width": 18,
+          "x": -30,
+          "y": 94,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 21,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "8ae04fd3-b05a-46bb-b9f9-50948aec8b89",
+          "width": 8,
+          "x": -21,
+          "y": 88,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 10,
+          "layer": "",
+          "locked": false,
+          "name": "Obstacle",
+          "persistentUuid": "2cad474d-9dd4-44b6-b928-7aaaba89f2b4",
+          "width": 74,
+          "x": -26,
+          "y": 78,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Sack",
+          "persistentUuid": "a2ad8115-a827-47b6-af6b-5f50541bcc7c",
+          "width": 0,
+          "x": -33,
+          "y": 87,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 32,
+          "name": "Map",
+          "tags": "",
+          "texture": "basement.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "LightWall",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "lamp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house012.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house025.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house026.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portal",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\portal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ladder",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\ladder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sack",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\img\\multiscene\\Layer 1_house013.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Prefab events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlayerControl::PlayerControl"
+                  },
+                  "parameters": [
+                    "",
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GeneralContextConfig::GeneralContextConfig"
+                  },
+                  "parameters": [
+                    "",
+                    "Obstacle",
+                    "Player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Scene events",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Portal"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Portal",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Home\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "Originally automatically extracted from events of the project",
+      "extensionNamespace": "",
+      "fullName": "GeneralContextConfig",
+      "name": "GeneralContextConfig",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "Start main sounnd, collisions and camera",
+          "fullName": "General context configuration",
+          "functionType": "Action",
+          "name": "GeneralContextConfig",
+          "sentence": "_Obstacle_ _Player_",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Context",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "Jesús Lastra - Abandoned.mp3",
+                        "yes",
+                        "35",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Obstacle"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FixCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "Player",
+                        "-50",
+                        "-50",
+                        "940",
+                        "650",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Obstacle",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "",
+              "longDescription": "",
+              "name": "Obstacle",
+              "optional": false,
+              "supplementaryInformation": "TiledSpriteObject::TiledSprite",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "",
+              "longDescription": "",
+              "name": "Player",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    },
+    {
+      "author": "",
+      "description": "Originally automatically extracted from events of the project",
+      "extensionNamespace": "",
+      "fullName": "PlayerControl",
+      "name": "PlayerControl",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [
+        {
+          "description": "Player control",
+          "fullName": "Player Control",
+          "functionType": "Action",
+          "name": "PlayerControl",
+          "sentence": "Player",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "Player",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"PlayerMoving\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "-GlobalVariable(PlayerSpeed)",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"PlayerMoving\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "Player",
+                        "no"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "GlobalVariable(PlayerSpeed)",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"PlayerIdle\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "\"PlayerIdle\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "0",
+                        "-GlobalVariable(PlayerSpeed)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player",
+                        "0",
+                        "GlobalVariable(PlayerSpeed)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "",
+              "longDescription": "",
+              "name": "Player",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
